@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.satisfy{
+    font-family: 'Satisfy', cursive;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.relative {
+    position: relative !important;
+} 
+  
+.absolute {
+    position: absolute !important;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+
+.logo-img{
+    width: 200px;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 601px){
+    .container90{
+        width:85%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+    .logo-img{
+        width: 300px;
+        margin-top: 15px;
+    }
+}
+.margin-t0{
+    margin-top: 0;
+}
+
+.margin-b0{
+    margin-bottom: 0;
+}
+
+.gris{
+    background-color: #929396;
+}
+
+.gris-text{
+    color: #929396;
+}
+
+.verde{
+    background-color: #88c23d;
+}
+
+.verde-text{
+    color: #88c23d;
+}
+
+.spacing50{
+    height: 50px;
+}
+
+.spacing100{
+    height: 100px;
+}
+
+.frase{
+    background-image: url(../images/beauty-salon-img7.jpg);
+}
