@@ -5,6 +5,8 @@ $(document).ready(function(){
     });
     $('.sidenav').sidenav();
     $('.materialboxed').materialbox();
+    $('.fixed-action-btn').floatingActionButton();
+    
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, {
         'onOpenEnd': initCarouselModal
