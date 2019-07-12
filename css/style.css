@@ -27,29 +27,78 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     line-height: 100px !important;
 }
 
+.logo-img{
+    width: 200px;
+    margin-top: 25px;
+}
+
 .container90{
     margin:0 auto;
     max-width:1280px;
     width:90%
 }
 
-.logo-img{
-    width: 200px;
-    margin-top: 25px;
+.container50{
+    margin:0 auto;
+    max-width:1280px;
+    width:80%
+}
+.simpsa{
+    background-image: url(../images/haircut.png);
+    background-size: cover;
+    height: 300px;
+    transition: 0.5s;
 }
 
 @media only screen and (min-width: 601px){
     .container90{
         width:85%
     }
+    .container50{
+        width:60%
+    }
 }
+
+
 @media only screen and (min-width: 993px){
     .container90{
         width:90%
     }
+    .container50{
+        width:60%
+    }
     .logo-img{
         width: 300px;
         margin-top: 15px;
+    }
+    .portafolio-hover:hover .content-portafolio{
+        display: none;
+        transition: 0.5s;
+    }
+    .portafolio-hover:hover .circle-portafolio{
+        display: block;
+    }
+    
+    .simpsa{
+        background-image: url(../images/haircut.png);
+        background-size: cover;
+        height: 480px;
+        transition: 0.5s;
+    }
+    .simpsa:hover{
+        background-image: url(../images/haircut.jpg);
+        background-size: cover;
+    }
+    
+    .circle-portafolio{
+        background-color: #88c23d;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin: auto;
+        margin-top: 200px;
+        display: none;
+        transition: 0.5s;
     }
 }
 .margin-t0{
